@@ -1,0 +1,100 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "collection_version": "1.0:1.0",
+    "comment": "",
+    "commit": "25b4c75c5ef8016c1d064fa3ece5efed7a1545e4",
+    "conditionals": null,
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": null,
+            "gain": null
+        },
+        "H1": {
+            "deflection": null,
+            "gain": null
+        },
+        "H2": {
+            "deflection": null,
+            "gain": null
+        },
+        "L1": {
+            "deflection": null,
+            "gain": null
+        },
+        "L2": {
+            "deflection": null,
+            "gain": null
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "Load54",
+    "extraction": "ngx_manual_crusher.py",
+    "identifier": "100077",
+    "increment": 2,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "B",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar36L1": {
+            "detector": "L1",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Ngx",
+    "material": "Gas",
+    "measurement": "ngx_ar_multi_hop.py",
+    "post_equilibration": "ngx_pump_crusher.py",
+    "post_measurement": "ngx_pump_ms.py",
+    "principal_investigator": "Cox, S",
+    "project": "AncientAir",
+    "queue_conditionals_name": "",
+    "repository_identifier": "AncientAir",
+    "sample": "Hartford",
+    "source": {
+        "emission": 1657.26,
+        "trap": 200.00018
+    },
+    "spec_sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "timestamp": "2018-09-13T17:22:26.520370",
+    "tripped_conditional": null,
+    "username": "root",
+    "uuid": "c9612b73-afa5-45a0-9988-31af1f3a6037",
+    "whiff_result": null
+}
